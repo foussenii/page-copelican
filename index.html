@@ -1,0 +1,338 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <title>copelican</title>
+    <link rel="stylesheet" href="copelican.css">
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js"></script>
+    <script src="http://code.jquery.com/jquery-1.10.2.min.js"></script>
+    <script src="jquery.inview.min.js"></script>
+
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
+
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/css/bootstrap.min.css" integrity="sha384-rwoIResjU2yc3z8GV/NPeZWAv56rSmLldC3R/AZzGRnGxQQKnKkoFVhFQhNUwEyJ" crossorigin="anonymous">
+
+    <link rel="stylesheet" href="font-awesome-4.7.0/css/font-awesome.min.css">
+</head>
+
+
+<body>
+
+    <nav class="navbar navbar-toggleable-md ">
+
+
+        <img class="copelican" src="logo-copelican.png" alt="">
+
+        <div class="navbar-collapse collapse" id="navbarsExampleDefault" aria-expanded="false">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a id="orange" href="#">Expediteur</a>
+                </li>
+                <li class="nav-item active">
+                    <a id="cyan" href="#">voyageur </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Notre concepte </a>
+                </li>
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Contact </a>
+                </li>
+                <li>
+                    <a id="user" href="#"><i class="fa fa-user-circle-o fa-2x" aria-hidden="true"></i></a>
+                </li>
+                <li><a class="green" href="#"><i class="fa fa-facebook fa-1x" aria-hidden="true"></i></a>
+                </li>
+                <li>
+                    <a class="green" href="#"><i class="fa fa-twitter" aria-hidden="true"></i></a>
+                </li>
+
+
+        </div>
+
+        </ul>
+
+        </div>
+    </nav>
+
+    <div class="row">
+        <div class="col-md-5">
+            <h4 id="espace2">Mon voyage</h4>
+            <h7 class="voyage">Je voyage de :</h7>
+            <div class="col-md-4">
+                <input id="ligne1" type="text" name="" value="">
+                <span id="espace-input">à</span>
+                <input type="text" name="" value="">
+            </div>
+            <div class="col-md-4">
+                <input id="ligne1" type="date" name="" value="">
+                <a class="calendar" href="#"><i class="fa fa-calendar fa fa-2x " aria-hidden="true"></i>
+</a>
+                <a class="button-plus" href="#"><i class="fa fa-plus-circle" aria-hidden="true"></i></a>
+                <p class="depart"> Étape:Tours</p>
+            </div>
+            <div class="centre">
+                <p class="depart2">Je realise ce voyage regulièrement :</p>
+                <div class="slideOne">
+                    <input type="checkbox" value="None" id="slideOne" name="check" checked />
+                    <label for="slideOne"></label>
+                </div>
+
+            </div>
+            <h7 class="voyage">Je voyage en :</h7>
+            <div class="col-md-3">
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-motorcycle fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Deux roues</p>
+
+                </div>
+
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-car fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Voiture</p>
+
+                </div>
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-truck fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Camionette</p>
+
+                </div>
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-train fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Train</p>
+
+                </div>
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-bus fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Bus/Car</p>
+
+                </div>
+
+            </div>
+            <div class="col-md-3">
+                <div class="click">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                </div>
+            </div>
+            <h7 class="voyage"><strong>Je peux prendre objet qui tient dans :</strong></h7>
+
+            <div class="col-md-3">
+                <div class="box2">
+                    <img class="travel" src="image/sac.png" alt="">
+                    <p class="mobile">Un sac à dos</p>
+
+                </div>
+
+                <div class="box2">
+                    <img class="travel" src="image/suitcase.png" alt="">
+                    <p class="mobile">Valise</p>
+
+                </div>
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-car fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Voiture</p>
+
+                </div>
+                <div class="box2">
+                    <a class="box" href="#"><i class="fa fa-truck fa-2x" aria-hidden="true"></i></a>
+                    <p class="mobile">Camionette</p>
+
+                </div>
+
+
+            </div>
+            <div class="col-md-3">
+                <div class="click">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+                    <input class="click1" type="radio" name="" value="other">
+
+                </div>
+            </div>
+            <div class="centre">
+                <p class="depart2"><strong>Je realise ce voyage regulièrement :</strong></p>
+                <select id="drop" name="">
+  <option value="1km">1KM</option>
+  <option value="2km">2KM</option>
+  <option value="3km">3KM</option>
+  <option value="4km">4KM</option>
+  <option value="5km">5KM</option>
+  <option value="6km">6KM</option>
+  <option value="7km">7KM</option>
+  <option value="8km">8KM</option>
+</select>
+
+            </div>
+            <div class="line-block">
+                <div class="setting">
+                    <button class="long" type="button" name="button">Modifier l'annonce</button>
+                </div>
+                <div class="setting">
+                    <button class="long" type="button"> Nouvelle recherche</button>
+                </div>
+            </div>
+        </div>
+        <div class="col-md-7">
+            <h4 id="espace">Expeditions en attente</h4>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            <div class="row">
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-md-4">
+                    <div class="carre">
+                        <h6 class="titre">paris → bordeaux</h6>
+                        <span class="chiffre">15€</span>
+                        <p>pour transporter:<br> une cafetière</p>
+                        <div class="line-block">
+                            <div class="block">
+                                <button class="taille" type="button" name="button">voir l'annonce</button>
+                            </div>
+                            <div class="block">
+                                <button class="taille" type="button">proposer le voyage</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </div>
+
+    </div>
+
+
+
+</body>
+
+</html>
